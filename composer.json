@@ -1,0 +1,40 @@
+{
+  "name": "persianfla/rtl",
+  "type": "flarum-extension",
+  "description": "Make Flarum RTL",
+  "keywords": [
+    "rtl",
+    "flarum",
+    "flarum-extension"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sajjad Hashemian",
+      "email": "wolaws@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/persianfla/flarum-ext-rtl/issues",
+    "source": "https://github.com/persianfla/flarum-ext-rtl"
+  },
+  "require": {
+    "sabberworm/php-css-parser": "^8.3.0",
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "PersianFla\\RTL\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "RTL",
+      "icon": {
+        "image": "paragraph",
+        "backgroundColor": "#000000",
+        "color": "#ffffff"
+      }
+    }
+  }
+}
