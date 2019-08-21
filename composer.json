@@ -20,7 +20,7 @@
   },
   "require": {
     "sabberworm/php-css-parser": "^8.3.0",
-    "flarum/core": "^0.1.0-beta.8"
+    "flarum/core": "^0.1.0-beta.9"
   },
   "autoload": {
     "psr-4": {
